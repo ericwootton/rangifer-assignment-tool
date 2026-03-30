@@ -1,0 +1,55 @@
+/* Rangifer Assignment Tool - Custom Styles */
+
+/* Padding between navbar title and tabs */
+.navbar-brand {
+  margin-right: 2rem !important;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+}
+
+.card-header {
+  font-weight: 600;
+}
+
+/* Status text wrapping */
+#status_text {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Space between Browse button and Upload progress bar */
+.shiny-input-container .progress {
+  margin-top: 8px;
+}
+
+/* Unified button colors (#2c3e50) */
+
+/* File input Browse button */
+.btn-file {
+  background-color: #2c3e50 !important;
+  border-color: #2c3e50 !important;
+  color: #fff !important;
+}
+.btn-file:hover {
+  background-color: #1a252f !important;
+  border-color: #1a252f !important;
+}
+
+/* Primary buttons */
+.btn-primary:hover {
+  background-color: #1a252f !important;
+  border-color: #1a252f !important;
+}
+.btn-primary:active,
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+/* Download button hover */
+#download_results:hover {
+  background-color: #1a252f !important;
+  border-color: #1a252f !important;
+}

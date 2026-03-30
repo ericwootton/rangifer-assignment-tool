@@ -1,0 +1,134 @@
+{
+  "level1": {
+    "node_name": "root",
+    "level": 1,
+    "column": "subspecies",
+    "groups": ["Rangifer tarandus groenlandicus", "Rangifer tarandus tarandus", "Rangifer tarandus fennicus", "Rangifer tarandus caribou", "Rangifer tarandus pearyi"],
+    "sample_counts": [155, 90, 11, 97, 9]
+  },
+  "level2": {
+    "Rangifer tarandus groenlandicus": {
+      "node_name": "L2_Rangifer_tarandus_groenlandicus",
+      "level": 2,
+      "parent_group": "Rangifer tarandus groenlandicus",
+      "column": "ecotype",
+      "groups": ["Migratory Tundra", "Dolphin and Union"],
+      "sample_counts": [137, 18]
+    },
+    "Rangifer tarandus tarandus": {
+      "node_name": "L2_Rangifer_tarandus_tarandus",
+      "level": 2,
+      "parent_group": "Rangifer tarandus tarandus",
+      "column": "ecotype",
+      "groups": ["Tundra", "Forest"],
+      "sample_counts": [63, 27]
+    },
+    "Rangifer tarandus fennicus": {
+      "node_name": "L2_Rangifer_tarandus_fennicus",
+      "level": 2,
+      "parent_group": "Rangifer tarandus fennicus",
+      "column": "ecotype",
+      "groups": "Not applicable",
+      "sample_counts": 11
+    },
+    "Rangifer tarandus caribou": {
+      "node_name": "L2_Rangifer_tarandus_caribou",
+      "level": 2,
+      "parent_group": "Rangifer tarandus caribou",
+      "column": "ecotype",
+      "groups": ["Boreal", "Eastern Migratory", "Mountain"],
+      "sample_counts": [52, 13, 32]
+    },
+    "Rangifer tarandus pearyi": {
+      "node_name": "L2_Rangifer_tarandus_pearyi",
+      "level": 2,
+      "parent_group": "Rangifer tarandus pearyi",
+      "column": "ecotype",
+      "groups": "Not applicable",
+      "sample_counts": 9
+    }
+  },
+  "level3": {
+    "Rangifer_tarandus_groenlandicus_Migratory_Tundra": {
+      "node_name": "L3_Rangifer_tarandus_groenlandicus_Migratory_Tundra",
+      "level": 3,
+      "parent_group": "Migratory Tundra",
+      "grandparent_group": "Rangifer tarandus groenlandicus",
+      "column": "herd",
+      "groups": ["Central Barren-ground", "Porcupine"],
+      "sample_counts": [117, 20]
+    },
+    "Rangifer_tarandus_groenlandicus_Dolphin_and_Union": {
+      "node_name": "L3_Rangifer_tarandus_groenlandicus_Dolphin_and_Union",
+      "level": 3,
+      "parent_group": "Dolphin and Union",
+      "grandparent_group": "Rangifer tarandus groenlandicus",
+      "column": "herd",
+      "groups": "Dolphin and Union",
+      "sample_counts": 18
+    },
+    "Rangifer_tarandus_tarandus_Tundra": {
+      "node_name": "L3_Rangifer_tarandus_tarandus_Tundra",
+      "level": 3,
+      "parent_group": "Tundra",
+      "grandparent_group": "Rangifer tarandus tarandus",
+      "column": "herd",
+      "groups": ["Russian/Siberian", "Scandinavian"],
+      "sample_counts": [29, 34]
+    },
+    "Rangifer_tarandus_tarandus_Forest": {
+      "node_name": "L3_Rangifer_tarandus_tarandus_Forest",
+      "level": 3,
+      "parent_group": "Forest",
+      "grandparent_group": "Rangifer tarandus tarandus",
+      "column": "herd",
+      "groups": "Chinese Forest",
+      "sample_counts": 27
+    },
+    "Rangifer_tarandus_fennicus_Not_applicable": {
+      "node_name": "L3_Rangifer_tarandus_fennicus_Not_applicable",
+      "level": 3,
+      "parent_group": "Not applicable",
+      "grandparent_group": "Rangifer tarandus fennicus",
+      "column": "herd",
+      "groups": "Finnish Forest",
+      "sample_counts": 11
+    },
+    "Rangifer_tarandus_caribou_Boreal": {
+      "node_name": "L3_Rangifer_tarandus_caribou_Boreal",
+      "level": 3,
+      "parent_group": "Boreal",
+      "grandparent_group": "Rangifer tarandus caribou",
+      "column": "herd",
+      "groups": ["Boreal NWT-Alberta", "Boreal Ontario", "Boreal Quebec"],
+      "sample_counts": [28, 14, 10]
+    },
+    "Rangifer_tarandus_caribou_Eastern_Migratory": {
+      "node_name": "L3_Rangifer_tarandus_caribou_Eastern_Migratory",
+      "level": 3,
+      "parent_group": "Eastern Migratory",
+      "grandparent_group": "Rangifer tarandus caribou",
+      "column": "herd",
+      "groups": "Eastern Migratory",
+      "sample_counts": 13
+    },
+    "Rangifer_tarandus_caribou_Mountain": {
+      "node_name": "L3_Rangifer_tarandus_caribou_Mountain",
+      "level": 3,
+      "parent_group": "Mountain",
+      "grandparent_group": "Rangifer tarandus caribou",
+      "column": "herd",
+      "groups": "Mountain",
+      "sample_counts": 32
+    },
+    "Rangifer_tarandus_pearyi_Not_applicable": {
+      "node_name": "L3_Rangifer_tarandus_pearyi_Not_applicable",
+      "level": 3,
+      "parent_group": "Not applicable",
+      "grandparent_group": "Rangifer tarandus pearyi",
+      "column": "herd",
+      "groups": "Peary",
+      "sample_counts": 9
+    }
+  }
+}
